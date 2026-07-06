@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Latex Font";
+    src: url(cmu.serif-roman.ttf);
+}
+
+body {
+    background-color: rgb(165, 206, 237);
+}
+
+h2 {
+    font-family: 'Latex Font', sans-serif;
+    text-align: center;
+}
+

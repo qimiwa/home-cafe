@@ -1,0 +1,61 @@
+body {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Rascal', sans-serif;
+    font-size: 60px;
+    color: rgb(46, 27, 13);
+    text-align: center;
+}
+
+
+h2 {
+    font-family: 'Latex Font', sans-serif;
+    text-align: center;
+}
+
+/* i love LaTex font */
+@font-face {
+    font-family: "Latex Font";
+    src: url(cmu.serif-roman.ttf);
+}
+
+@font-face {
+    font-family: "Rascal";
+    src: url(rascal.ttf);
+}
+
+p {
+    font-family: 'Latex Font', sans-serif;
+    text-align: center;
+    color: rgb(44, 28, 13);
+}
+
+a {
+    color: black;
+    text-decoration: underline #d17db4;
+
+}
+
+/* hover and selection were very fun to implement */
+a:hover {
+    background-color: #d07db3;
+    color: rgb(255, 247, 217);
+}
+::selection {
+    background-color: rgb(214, 179, 255);
+    color: #251d17;
+}
+
+/* source: https://l-m.dev/ & design inspo is partly from them */
+.content {
+  margin-bottom: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding: 0 1ch;
+  word-wrap: break-word;
+  background-color: #ffd6f8;
+}
