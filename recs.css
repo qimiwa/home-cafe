@@ -3,12 +3,67 @@
     src: url(cmu.serif-roman.ttf);
 }
 
+@font-face {
+    font-family: "Rascal";
+    src: url(rascal.ttf);
+}
+
 body {
-    background-color: rgb(165, 182, 237);
+    background-image: url(recs.png);
 }
 
 h2 {
     font-family: 'Latex Font', sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
+h1 {
+    font-family: 'Rascal', sans-serif;
+    font-size: 60px;
+    color: rgb(46, 27, 13);
+    text-align: left;
+}
+
+a {
+    color: black;
+    text-decoration: underline #6f60db;
+
+}
+
+/* hover and selection were very fun to implement */
+a:hover {
+    background-color: #6f60db;
+    color: rgb(255, 241, 191);
+}
+::selection {
+    background-color: rgb(179, 221, 255);
+    color: #251d17;
+}
+
+/* source: https://l-m.dev/ & design inspo is partly from them */
+.content {
+  margin-bottom: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding: 0 1ch;
+  word-wrap: break-word;
+  background-color: rgb(177, 180, 245);
+}
+
+ul {
+    list-style-position: inside;
+    font-family: 'Latex Font', sans-serif;
+    text-align: left;
+}
+
+li {
+    font-family: 'Latex Font', sans-serif;
+    text-align: left;
+}
+
+p {
+    font-family: 'Latex Font', sans-serif;
+    text-align: left;
+    color: rgb(44, 28, 13);
+}
